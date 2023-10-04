@@ -51,3 +51,15 @@ a {
     color:black;
       font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+.infoBox img {
+    width: 550px;
+    height: 300px;
+}
+
+.infoBox {
+    border: 5px solid black;
+    padding: 30px;
+    margin: 5px;
+    width: 623px;
+}
