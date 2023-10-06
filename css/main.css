@@ -14,7 +14,9 @@ nav {
     background: #0082e6;
     height: 80px;
     width: 100%;
+
 }
+
 label.logo {
     color: white;
     font-size: 35px;
@@ -52,14 +54,33 @@ a {
       font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.infoBox img {
-    width: 550px;
-    height: 300px;
+footer {
+    color: black;
+    margin-top: auto;
+    position: fixed;
+    bottom: 0;
+    padding: 10px;
+    background: rgb(100, 100, 100);
+    width: 100%;
+    height: auto;
+    text-align: center;
 }
 
-.infoBox {
-    border: 5px solid black;
-    padding: 30px;
-    margin: 5px;
-    width: 623px;
+footer a:hover {
+    padding: 2px 8px;
+    border-radius: 3px;
+    background: rgb(120,120,120);
 }
+
+.subjectContainer {
+    margin: 10px;
+    display: grid;
+    grid-template-columns:auto auto auto;
+    color:black;
+}
+
+.subjectContainer img {
+    height: 250px;
+    width: auto;
+}
+
