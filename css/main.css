@@ -60,7 +60,7 @@ footer {
     position: fixed;
     bottom: 0;
     padding: 10px;
-    background: rgb(100, 100, 100);
+    background: rgb(200, 200, 200);
     width: 100%;
     height: auto;
     text-align: center;
@@ -73,10 +73,12 @@ footer a:hover {
 }
 
 .subjectContainer {
+    padding: 25px;
     margin: 10px;
     display: grid;
     grid-template-columns:auto auto auto;
     color:black;
+    text-align: center;
 }
 
 .subjectContainer img {
@@ -84,3 +86,7 @@ footer a:hover {
     width: auto;
 }
 
+.infoBox img {
+    height: 300px;
+    width: 500px;
+}
