@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kattebilder</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            color: white;
+            text-shadow: 3px 3px 3px black;
+            background-color: lightblue;
+        }
+
+        img {
+            min-width: 300px;
+            min-height: 300px;
+            max-width: 300px;
+            max-height: 300px;
+            margin-bottom: 10px;
+            border: black 4px solid;
+        }
+
+        .katt {
+            text-align: center;
+        }
+
+        .button {
+            text-align: center;
+        }
+
+        p {
+            text-shadow: 1px 1px 1px black;
+        }
+    </style>
+</head>
+    
+<body>
+    <div class="katt">
+        <h1>Tilfeldige kattebilder</h1>
+        <script src="index.js"></script>
+        <img id="catimage" alt="Cat Image">
+    </div>
+    <div class="button">
+        <button onclick="newImage()">Ny Katt</button>
+    </div>
+</body>
+
+</html>
