@@ -2,12 +2,12 @@
     padding: 0;
     margin: 0;
     list-style: none;
-    text-decoration: none;
     box-sizing: border-box;
 }
 
 body {
    font-family: 'Montserrat';
+   background-size: cover;
 }
 
 nav {
@@ -42,11 +42,17 @@ nav ul li a {
     padding: 7px 13px;
     border-radius: 3px;
     text-transform: uppercase;
+    text-decoration: none;
 }
 
 a {
     color:black;
       font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a.active, a:hover {
+    background: #1b9bff;
+    transition: .5s;
 }
 
 footer {
@@ -69,55 +75,39 @@ footer a:hover {
 .subjectContainer {
     padding: 25px;
     margin: 10px;
-    display: grid;
-    grid-template-columns: auto auto auto;
     color:black;
+    display: flex;
+    justify-content: center;
 }
 
 .subjectContainer img {
-    height: 150px;
+    margin-top: 50px;
+    height: 240px;
     width: auto;
-    display: grid;
-    grid-template-columns: auto auto auto;
     color: black;
-      
-}
-
-.infoBox img {
-    height: 350px;
-    width: 500px;
-    border: black 5px solid;
-}
-
-.infoBox ul {
-    border: 3px solid black;
-    border-radius: 100px;
-    padding: 20px;
-    margin: 50px;
-}
-
-.infoBox {
-    margin-left: auto;
-    margin-top: 100px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-}
-
-#leander {
-    font-size: 50px;
+    box-shadow: 2px 2px black;
 }
 
 .button {
-    background-color: #a35aa670;
-    width: 80px;
+    background-color: #1b9bff;
+    width: 150px;  
     padding: 20px;
     border-radius: 10px;
-    text-align: center;
     border: 1px solid black;
     color: black;
-  }
+    text-align: center;
+}
 
-  
+.konsogprogr {
+    margin-top: 150px;
+    color:black;
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    color: black;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 50px;
+}

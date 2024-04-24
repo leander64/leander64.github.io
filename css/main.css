@@ -7,7 +7,8 @@
 }
 
 body {
-   font-family: 'Montserrat';
+    background-size: cover;
+    font-family: 'Montserrat';
 }
 
 nav {
@@ -89,8 +90,8 @@ footer a:hover {
 }
 
 .infoBox img {
-    height: 350px;
-    width: 500px;
+    height: 300px;
+    width: 450px;
     border: black 5px solid;
 }
 
@@ -105,7 +106,7 @@ footer a:hover {
     margin-left: auto;
     margin-top: 100px;
     position: absolute;
-    top: 50%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
@@ -123,6 +124,21 @@ footer a:hover {
     text-align: center;
     border: 1px solid black;
     color: black;
-  }
+}
 
-  
+.ommeg {
+    width: 500px;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid black;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ommeg img {
+    height: 300px;
+    width: auto;
+    color: black;    
+}
