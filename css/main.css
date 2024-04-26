@@ -86,7 +86,6 @@ footer a:hover {
     display: grid;
     grid-template-columns: auto auto auto;
     color: black;
-      
 }
 
 .infoBox img {
@@ -124,21 +123,4 @@ footer a:hover {
     text-align: center;
     border: 1px solid black;
     color: black;
-}
-
-.ommeg {
-    width: 500px;
-    padding: 20px;
-    border-radius: 10px;
-    border: 2px solid black;
-    color: black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.ommeg img {
-    height: 300px;
-    width: auto;
-    color: black;    
 }

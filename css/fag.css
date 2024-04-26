@@ -3,6 +3,7 @@
     margin: 0;
     list-style: none;
     box-sizing: border-box;
+    text-decoration: none;
 }
 
 body {
@@ -78,6 +79,7 @@ footer a:hover {
     color:black;
     display: flex;
     justify-content: center;
+    
 }
 
 .subjectContainer img {
@@ -85,7 +87,7 @@ footer a:hover {
     height: 240px;
     width: auto;
     color: black;
-    box-shadow: 2px 2px black;
+    border: black 5px solid;
 }
 
 .button {
@@ -98,7 +100,7 @@ footer a:hover {
     text-align: center;
 }
 
-.konsogprogr {
+.sigmaknapper {
     margin-top: 150px;
     color:black;
     display: flex;
@@ -111,3 +113,32 @@ h1 {
     text-align: center;
     margin-top: 50px;
 }
+
+.tilbake {
+    background-color: #1b9bff;
+    width: 105px;  
+    padding: 10px;
+    border-radius: 50px;
+    border: 1px solid black;
+    color: black;
+    text-align: center;
+    margin: 10px;
+}
+
+.bokomslag {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.prodhistContainer {
+    display: grid;
+    grid-template-columns: auto auto;
+    color: black;
+}
+
+#bokomslag {
+    width: 410px;
+    height: 250px;
+    border: solid 5px black;
+  }
