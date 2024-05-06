@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Julekortgenerator</title>
+</head>
+<body>
+
+<div id="card-form">
+        
+    <label for="receiver">Til:</label>
+    <input type="text" id="receiver" placeholder="Skriv navnet på mottakeren">
+
+    <label for="message">Melding:</label>
+    <textarea id="message" placeholder="Skriv din julehilsen"></textarea>
+
+    <label for="sender">Fra:</label>
+    <input type="text" id="sender" placeholder="Skriv navnet ditt">
+
+    <label for="image">Velg bilde:</label>
+    <select id="image">
+        <option value="images/julenisse.jpg">Julenisse</option>
+        <option value="images/juletre.jpg">Juletre</option>
+        <option value="images/rudolf.jpg">Rudolf</option>
+    </select>
+
+    <label for="backgroundColor">Bakgrunnsfarge:</label>
+    <input type="color" id="backgroundColor" value="#ffffff">
+
+    <label for="fontColor">Tekstfarge:</label>
+    <input type="color" id="fontColor" value="#000000">
+
+    <button onclick="generateCard()">Lag Julekort</button>
+</div>
+
+<div id="card-result">
+
+    <div id="card">
+        <p>Til: <span id="receiverOutput"></span></p>
+        <img id="selectedImage" style="max-width: 100%; height: auto;">
+        <p id="messageOutput"></p>
+        <p>Fra: <span id="senderOutput"></span></p>
+    </div>
+    <button onclick="goBack()">Lag Nytt</button>
+</div>
+
+<script src="js/script.js"></script>
+</body>

@@ -136,8 +136,12 @@ h2 {
     grid-template-columns: auto auto;
     color: black;
     justify-content: center;
-    padding: 30px;
     text-align: center;
+    padding: 30px;
+}
+
+.prodhistBox {
+    margin: 10px;
 }
 
 #bokomslag {
@@ -147,6 +151,18 @@ h2 {
 }
 
 #imlanlogo {
+    width: 410px;
+    height: 250px;
+    border: solid 5px black;
+}
+
+#visittkort {
+    width: 410px;
+    height: 250px;
+    border: solid 5px black;
+}
+
+#profilmanual {
     width: 410px;
     height: 250px;
     border: solid 5px black;
