@@ -112,7 +112,7 @@ h1 {
     color: black;
     font-size: 30px;
     text-align: center;
-    margin-top: 50px;
+    margin-top: 40px;
 }
 
 h2 {
@@ -171,6 +171,43 @@ h2 {
 
 #pizzalogo {
     width: 410px;
+    height: 250px;
+    border: solid 5px black;
+}
+
+.teknologiContainer {
+    display: grid;
+    grid-template-columns: auto auto;
+    color: black;
+    justify-content: center;
+    text-align: center;
+    padding: 30px;
+}
+
+.teknologiBox {
+    margin: 10px;
+}
+
+#arduinolys {
+    width: 440px;
+    height: 250px;
+    border: solid 5px black;
+}
+
+#basisnett {
+    width: 440px;
+    height: 250px;
+    border: solid 5px black;
+}
+
+#heimenettverk {
+    width: 440px;
+    height: 250px;
+    border: solid 5px black;
+}
+
+#datamaskin {
+    width: 440px;
     height: 250px;
     border: solid 5px black;
 }
