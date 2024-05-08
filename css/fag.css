@@ -103,7 +103,8 @@ footer a:hover {
 .sigmaknapper {
     margin-top: 150px;
     color:black;
-    display: flex;
+    display: grid;
+    grid-template-columns: auto auto auto;
     justify-content: center;
 }
 
@@ -163,6 +164,12 @@ h2 {
 }
 
 #profilmanual {
+    width: 410px;
+    height: 250px;
+    border: solid 5px black;
+}
+
+#pizzalogo {
     width: 410px;
     height: 250px;
     border: solid 5px black;
