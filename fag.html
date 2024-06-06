@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+    <link rel="stylesheet" href="https://www.1001fonts.com/digital-7-font.html">
     <link href="css/fag.css" rel="stylesheet">
     <title>Min Portefølje - Fag</title>
 </head>
@@ -14,41 +15,40 @@
     <nav>
         <label class="logo">Min Portefølje</label>
         <ul>
+            <li>
+                <div class="tid">
+                    <p id="time"></p>
+                </div>
+            </li>
             <li><a href="index.html">Heim</a></li>
             <li><a class="active" href="fag.html">Fag</a></li>
-            <li><a href="om-meg.html">Om Meg</a></li>
+            <li><a href="https://github.com/Leander64">Github</a></li>
             <li><a href="kontakt.html">Kontakt</a></li>
         </ul>
     </nav>
 
     <div class="subjectContainer">
-        <div class="subjectBox">
-            <img src="images/Teknologiforståelse.png" id="bilder">
-            <div class="button">
-                <a href="tekforståing.html">Klikk her</a>
-            </div>
+        <div class="teknologiforståing">
+            <h1>Teknologiforståing</h1>
+            <a href="tekforståing.html"><img src="images/teknologiforståing.jpg"></a>
         </div>
-        <div class="subjectBox" id="bilder">
-            <img src="images/koding.png">
-            <div class="button">
-                <a href="konsogprogr.html">Klikk her</a>
-            </div>
+        <div class="programmering">
+            <h1>Konseptutvikling og Programmering</h1>
+            <a href="konsogprogr.html"><img src="images/programmering.jpg"></a>
         </div>
-        <div class="subjectBox">
-            <img src="images/Kommunikasjon.png" id="bilder">
-            <div class="button">
-                <a href="prodoghistorie.html">Klikk her</a>
-            </div>
+        <div class="produksjonoghistorie">
+            <h1>Produksjon og Historieforteljing</h1>
+            <a href="prodoghistorie.html"><img src="images/produksjonoghistorie.jpg"></a>
         </div>
     </div>
 
     <footer>
-        <p>Author: Leander Rivenes Vihovde</p>
+        <p>Author: Leander R. Vihovde</p>
         <p>
             <a href="mailto:e-leavih@iskule.no">e-leavih@iskule.no</a>
         </p>
     </footer>
-
+    <script src="/js/tid.js"></script>
 </body>
 
 </html>

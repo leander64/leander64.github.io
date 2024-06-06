@@ -63,13 +63,16 @@ a {
 
 footer {
     color: black;
-    margin-top: auto;
     position: fixed;
     bottom: 0;
-    padding: 10px;
     width: 100%;
     height: auto;
     text-align: left;
+    margin-top: auto;
+    background-color: #201e1e35;
+    padding: 25px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
 }
 
 footer a:hover {
@@ -134,5 +137,8 @@ footer a:hover {
 .tid p {
     color: white;
     font-family: 'digital-7-font';
-    font-size: 17px;
+}
+
+#time {
+    font-size: 25px;
 }

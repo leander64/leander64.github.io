@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'digital-7-font';
+    src: url('/font/digital-7.ttf');
+}
+
 * {
     padding: 0;
     margin: 0;
@@ -61,10 +66,14 @@ footer {
     margin-top: auto;
     position: fixed;
     bottom: 0;
-    padding: 10px;
     width: 100%;
     height: auto;
     text-align: left;
+    margin-top: auto;
+    background-color: #201e1e35;
+    padding: 25px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;   
 }
 
 footer a:hover {
@@ -77,17 +86,17 @@ footer a:hover {
     padding: 25px;
     margin: 10px;
     color:black;
-    display: flex;
+    display: grid;
+    grid-template-columns: auto auto auto;
     justify-content: center;
-    
 }
 
 .subjectContainer img {
-    margin-top: 50px;
-    height: 240px;
-    width: auto;
+    margin-top: 10px;
+    height: 500px;
+    width: 300px;
     color: black;
-    border: black 5px solid;
+    margin: 20px;
 }
 
 .button {
@@ -210,4 +219,31 @@ h2 {
     width: 440px;
     height: 250px;
     border: solid 5px black;
+}
+
+.tid p {
+    color: white;
+    font-family: 'digital-7-font';
+}
+
+#time {
+    font-size: 25px;
+}
+
+.teknologiforståing {
+    background-color: #201e1e35;
+    padding: 25px;
+    margin: 20px;
+}
+
+.programmering {
+    background-color: #201e1e35;
+    padding: 25px;
+    margin: 20px;
+}
+
+.produksjonoghistorie {
+    background-color: #201e1e35;
+    padding: 25px;
+    margin: 20px;
 }
