@@ -1,0 +1,75 @@
+/* Bakgrunnsfarge og stil */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #0e2143;
+    color: white;
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /* For å skjule snø som går utenfor skjermen */
+}
+
+.countdown-container {
+    position: relative;
+    z-index: 10; /* Sørg for at nedtellingen er over snøen */
+    margin-top: 50px;
+}
+
+#countdown {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+#countdown div {
+    background: #b11a1a;
+    border-radius: 8px;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+#countdown span {
+    display: block;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+#countdown p {
+    margin: 0;
+    font-size: 1rem;
+}
+
+/* Snø-animasjon */
+.snow {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none; /* Tillat klikk gjennom snøen */
+    z-index: 5; /* Snø foran bakgrunn, men bak nedtelling */
+    overflow: hidden;
+}
+
+.snowflake {
+    position: absolute;
+    top: -10px;
+    background-color: white;
+    border-radius: 50%;
+    opacity: 0.8;
+    pointer-events: none;
+    animation: fall linear infinite;
+}
+
+/* Snø-animasjonsnøkler */
+@keyframes fall {
+    0% {
+        transform: translateY(-10px);
+        opacity: 0.8;
+    }
+    100% {
+        transform: translateY(110vh);
+        opacity: 0.3;
+    }
+}
